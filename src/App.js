@@ -9,6 +9,7 @@ import Qualification from "./components/qualification/Qualification.jsx";
 // import Projects from "./components/projects/Projects.jsx";
 import Testi from "./components/testimonials/Testi.jsx";
 import Contact from "./components/contact/Contact.jsx";
+import Footer from "./components/footer/Footer.jsx";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Testi />
         {/* <Projects /> */}
         <Contact />
+        <Footer />
       </main>
     </>
   );

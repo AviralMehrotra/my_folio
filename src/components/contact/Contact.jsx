@@ -1,7 +1,21 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import "./contact.css";
+// Make sure to create a private folder in src and then add your codes there
+import servicecode from "../../private/servicecode";
+import templatecode from "../../private/templatecode";
+import publickey from "../../private/publickey";
 
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(servicecode, templatecode, form.current, {
+      publicKey: publickey,
+    });
+    e.target.reset();
+  };
   return (
     <section className="contact section" id="contact">
       <h2 className="section_title">Contact Me</h2>
@@ -15,10 +29,12 @@ const Contact = () => {
             <div className="contact_card">
               <i className="bx bx-mail-send contact_card-icon"></i>
               <h3 className="contact_card-title">Email</h3>
-              <span className="contact_card-data">user@gmail.com</span>
+              <span className="contact_card-data">
+                aviralmehrotra9402@gmail.com
+              </span>
 
               <a
-                href="mailto:aviralmehrotra09042002@gmail.com"
+                href="mailto:aviralmehrotra9402@gmail.com"
                 className="contact_button"
               >
                 Write me{" "}
@@ -59,7 +75,7 @@ const Contact = () => {
         <div className="contact_content">
           <h3 className="contact_title">Write me your project</h3>
 
-          <form className="contact_form">
+          <form className="contact_form" ref={form} onSubmit={sendEmail}>
             <div className="contact_form-div">
               <label className="contact_form-tag">Name</label>
               <input
@@ -90,7 +106,7 @@ const Contact = () => {
                 placeholder="Enter your Message..."
               />
             </div>
-            <button className="button button--flex">
+            <button className="button button--flex" type="submit">
               Send Message{" "}
               <svg
                 className="button__icon"
