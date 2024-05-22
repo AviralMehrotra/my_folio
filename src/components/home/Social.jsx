@@ -4,7 +4,7 @@ function Social() {
   return (
     <div className="home_social">
       <a
-        href="https://www.instagram.com/aviral._.mehrotra/"
+        href="https://www.github.com/aviralmehrotra"
         className="home_social-icon"
         target="_blank"
         rel="noreferrer"
@@ -12,7 +12,7 @@ function Social() {
         <i className="uil uil-github-alt"></i>
       </a>
       <a
-        href="https://www.linkedin.com/aviralmehrotra9"
+        href="https://www.linkedin.com/in/aviralmehrotra9"
         className="home_social-icon"
         target="_blank"
         rel="noreferrer"
@@ -20,7 +20,7 @@ function Social() {
         <i className="uil uil-linkedin-alt"></i>
       </a>
       <a
-        href="https://www.github.com/aviralmehrotra"
+        href="https://www.instagram.com/aviral._.mehrotra/"
         className="home_social-icon"
         target="_blank"
         rel="noreferrer"

@@ -46,7 +46,7 @@ const Qualification = () => {
             <div className="qualification_data">
               <div>
                 <h3 className="qualification_title">
-                  B-Tech: Computer Science and Engineering
+                  B-Tech: Computer Science
                 </h3>
                 <span className="qualification_subtitle">SRMU - Lucknow</span>
                 <div className="qualification_calendar">
@@ -68,44 +68,28 @@ const Qualification = () => {
                 <span className="qualification_line"></span>
               </div>
               <div>
-                <h3 className="qualification_title">Web Developer</h3>
-                <span className="qualification_subtitle">Intenship</span>
-                <div className="qualification_calendar">
-                  <i className="uil uil-calendar-alt"></i> Jul 2023- Aug 2023
-                </div>
-              </div>
-            </div>
-
-            <div className="qualification_data">
-              <div>
                 <h3 className="qualification_title">
                   B-Tech: Information Technology
                 </h3>
-                <span className="qualification_subtitle">BVDU - Pune</span>
+                <span className="qualification_subtitle">BVDU- Pune</span>
                 <div className="qualification_calendar">
-                  <i className="uil uil-calendar-alt"></i> 2020-2022
+                  <i className="uil uil-calendar-alt"></i> 2020- 2022
                 </div>
-              </div>
-
-              <div>
-                <span className="qualification_rounder"></span>
-                <span className="qualification_line"></span>
               </div>
             </div>
 
             <div className="qualification_data">
-              <div></div>
+              <div>
+                <h3 className="qualification_title">12th -Intermediate</h3>
+                <span className="qualification_subtitle">DMPS- Raebareli</span>
+                <div className="qualification_calendar">
+                  <i className="uil uil-calendar-alt"></i> 2018-2020
+                </div>
+              </div>
 
               <div>
                 <span className="qualification_rounder"></span>
                 <span className="qualification_line"></span>
-              </div>
-              <div>
-                <h3 className="qualification_title">Web Developer</h3>
-                <span className="qualification_subtitle">Intenship</span>
-                <div className="qualification_calendar">
-                  <i className="uil uil-calendar-alt"></i> Aug 2022- Oct 2022
-                </div>
               </div>
             </div>
           </div>
@@ -119,7 +103,7 @@ const Qualification = () => {
           >
             <div className="qualification_data">
               <div>
-                <h3 className="qualification_title">Web Developer</h3>
+                <h3 className="qualification_title">Web Developer Intern</h3>
                 <span className="qualification_subtitle">R.G Minerals</span>
                 <div className="qualification_calendar">
                   <i className="uil uil-calendar-alt"></i> 2023-2023
@@ -140,44 +124,28 @@ const Qualification = () => {
                 <span className="qualification_line"></span>
               </div>
               <div>
-                <h3 className="qualification_title">Web Developer</h3>
-                <span className="qualification_subtitle">Intenship</span>
+                <h3 className="qualification_title">Full Stack Developer</h3>
+                <span className="qualification_subtitle">Bharat Intern</span>
                 <div className="qualification_calendar">
-                  <i className="uil uil-calendar-alt"></i> Jul 2023- Aug 2023
+                  <i className="uil uil-calendar-alt"></i> Jun 2023- July 2023
                 </div>
               </div>
             </div>
 
             <div className="qualification_data">
               <div>
-                <h3 className="qualification_title">
-                  B-Tech: Information Technology
-                </h3>
-                <span className="qualification_subtitle">BVDU - Pune</span>
-                <div className="qualification_calendar">
-                  <i className="uil uil-calendar-alt"></i> 2020-2022
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification_rounder"></span>
-                <span className="qualification_line"></span>
-              </div>
-            </div>
-
-            <div className="qualification_data">
-              <div></div>
-
-              <div>
-                <span className="qualification_rounder"></span>
-                <span className="qualification_line"></span>
-              </div>
-              <div>
-                <h3 className="qualification_title">Web Developer</h3>
-                <span className="qualification_subtitle">Intenship</span>
+                <h3 className="qualification_title">Web Developer Intern</h3>
+                <span className="qualification_subtitle">
+                  Mayatech Soln. Pvt. Ltd.
+                </span>
                 <div className="qualification_calendar">
                   <i className="uil uil-calendar-alt"></i> Aug 2022- Oct 2022
                 </div>
+              </div>
+
+              <div>
+                <span className="qualification_rounder"></span>
+                <span className="qualification_line"></span>
               </div>
             </div>
           </div>
