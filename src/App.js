@@ -6,10 +6,11 @@ import About from "./components/about/About.jsx";
 import Skills from "./components/skills/Skills.jsx";
 import Certifications from "./components/certifications/Certifications.jsx";
 import Qualification from "./components/qualification/Qualification.jsx";
-// import Projects from "./components/projects/Projects.jsx";
+import Projects from "./components/projects/Projects.jsx";
 import Testi from "./components/testimonials/Testi.jsx";
 import Contact from "./components/contact/Contact.jsx";
 import Footer from "./components/footer/Footer.jsx";
+import ScrolltoTop from "./components/scrolltotop/ScrolltoTop.jsx";
 
 function App() {
   return (
@@ -21,11 +22,12 @@ function App() {
         <Skills />
         <Certifications />
         <Qualification />
-        <Testi />
-        {/* <Projects /> */}
+        {/* <Testi /> */}
+        <Projects />
         <Contact />
-        <Footer />
       </main>
+      <Footer />
+      <ScrolltoTop />
     </>
   );
 }
