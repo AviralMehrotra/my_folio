@@ -1,3 +1,7 @@
+.contact {
+  padding-top: 8rem;
+}
+
 .contact_container {
   grid-template-columns: repeat(2, max-content);
   justify-content: center;
@@ -132,6 +136,10 @@
 }
 
 @media screen and (max-width: 576px) {
+  .contact {
+    padding-top: 4rem;
+  }
+
   .contact_info {
     grid-template-columns: 1fr;
   }

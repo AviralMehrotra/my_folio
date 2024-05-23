@@ -1,3 +1,7 @@
+.about {
+  padding-top: 10rem;
+}
+
 .section_title,
 .section_subtitle {
   text-align: center;
@@ -77,6 +81,12 @@
   .about_description {
     padding: 0 5rem;
     margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    padding-top: 5rem;
   }
 }
 
