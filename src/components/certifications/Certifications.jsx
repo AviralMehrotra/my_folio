@@ -34,7 +34,7 @@ const Certifications = () => {
                 className="uil uil-times certifications_modal-close"
                 onClick={() => toggleTab(0)}
               ></i>
-              <h3 className="certifications_modal-title">Basic Frontend</h3>
+              <h3 className="certifications_modal-title">Frontend Development</h3>
               <p className="certifications_modal-description">
                 Got a basic overview of being a front-end web developer by
                 learning about HTML, CSS, JavaScript, jQuery, and Bootstrap!

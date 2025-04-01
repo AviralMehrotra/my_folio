@@ -24,7 +24,7 @@ const Backend = () => {
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills_name">Python</h3>
-              <span className="skills_level">Intermediate</span>
+              <span className="skills_level">Advanced</span>
             </div>
           </div>
         </div>

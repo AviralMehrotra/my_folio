@@ -1,19 +1,20 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
-// Make sure to create a private folder in src and then add your codes there
-import servicecode from "../../private/servicecode";
-import templatecode from "../../private/templatecode";
-import publickey from "../../private/publickey";
 
 const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(servicecode, templatecode, form.current, {
-      publicKey: publickey,
-    });
+    emailjs.sendForm(
+      process.env.REACT_APP_EMAILJS_SERVICE_ID,
+      process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+      form.current,
+      {
+        publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
+      }
+    );
     e.target.reset();
   };
   return (
