@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # Personal Portfolio Website
 
 A modern, responsive portfolio website built with React.js, featuring a clean design and smooth animations. This portfolio showcases projects, skills, and provides a contact form using EmailJS integration.
+=======
+# My Folio
+
+A modern, responsive portfolio website built with React.js, featuring a clean design and smooth animations. This portfolio showcases my projects, skills, and provides a contact form using EmailJS integration.
+>>>>>>> 73bc18551cb24bb535c18371444a0a573f7fa87c
 
 ## 🌟 Features
 
@@ -14,7 +20,11 @@ A modern, responsive portfolio website built with React.js, featuring a clean de
 
 ## 🚀 Live Demo
 
+<<<<<<< HEAD
 [View Live Demo](your-portfolio-url-here)
+=======
+[View Live Demo](https://aviralmehrotra.netlify.app/)
+>>>>>>> 73bc18551cb24bb535c18371444a0a573f7fa87c
 
 ## 🛠️ Technologies Used
 
@@ -28,12 +38,20 @@ A modern, responsive portfolio website built with React.js, featuring a clean de
 
 1. Clone the repository
 ```bash
+<<<<<<< HEAD
 git clone https://github.com/your-username/your-portfolio.git
+=======
+git clone https://github.com/AviralMehrotra/my_folio.git
+>>>>>>> 73bc18551cb24bb535c18371444a0a573f7fa87c
 ```
 
 2. Install dependencies
 ```bash
+<<<<<<< HEAD
 cd your-portfolio
+=======
+cd my_folio
+>>>>>>> 73bc18551cb24bb535c18371444a0a573f7fa87c
 npm install
 ```
 
@@ -66,6 +84,10 @@ my_folio/
 ├── public/
 ├── src/
 │   ├── assets/
+<<<<<<< HEAD
+=======
+│   ├── components/
+>>>>>>> 73bc18551cb24bb535c18371444a0a573f7fa87c
 │   │   ├── about/
 │   │   ├── contact/
 │   │   ├── footer/
@@ -114,6 +136,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+<<<<<<< HEAD
 ## 👤 Author
 
 **Aviral Mehrotra**
@@ -122,6 +145,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
+=======
+## 🙏 Acknowledgments
+
+>>>>>>> 73bc18551cb24bb535c18371444a0a573f7fa87c
 - [BoxIcons](https://boxicons.com/) for the icons
 - [EmailJS](https://www.emailjs.com/) for the email service
 - [Swiper](https://swiperjs.com/) for the slider component
